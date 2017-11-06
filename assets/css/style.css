@@ -1,0 +1,338 @@
+body{
+	font-family: 'Georgia', Times, Times New Roman, serif,'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image:url("../images/bg.png");
+
+}	
+
+header{
+	position: relative;
+}
+
+.name{
+    color: white;
+    background: #4aaaa5;
+    width: 250px;
+    height: 55px;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+    font-size: 12px;
+    position: relative;
+    top: 29px;
+    right: -63px;
+
+}
+
+
+
+.links {
+    margin-top: 20px;
+    margin-right: 64px;
+    float: left;
+    position: absolute;
+    top: 15px;
+    right: -775px;
+    font-size: 18px;
+}
+
+.box{
+	width: 100%;
+	
+	background-image:url("../images/bg.png");
+	background-color: #eee;
+	display: block;
+	clear: both;
+	overflow: auto;
+	border-color: #cccccc;
+	position: relative;
+	top: 30px;
+
+
+}
+
+
+
+
+h2{
+	color: #4aaaa5;
+}
+
+h3{
+	color: #4aaaa5;
+}
+
+#AboutMe{
+	background-color: #ffffff;
+	margin: 64px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
+
+
+}
+
+
+#connect{
+	
+	background-color: #ffffff;
+	width: 270px;
+	float:left;
+	padding: 20px;
+	margin: 20px;
+	float:left;
+    top: -19px;
+    right: -360px;
+    position: absolute;
+
+}
+
+
+#photo{
+	float: left;
+	padding: 20px;
+}
+
+p{
+	padding-left: 20px;
+	line-height: 30px;
+	padding: 10px;
+}
+
+
+
+#line{
+	border-color: #4aaaa5;
+	background-color: #4aaaa5;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-width: 3px;
+}
+
+.footer{
+	margin-top: 0px;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	height: 50px;
+	width: 100%;
+	border-top: 8px;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+
+}
+
+a{
+	color: red;
+
+}
+a:hover{
+	color: blue;
+}
+
+
+
+/*CSS for contact.html*/
+
+	
+#contact{
+	background-color: #ffffff;
+	margin: 64px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
+
+
+}
+
+#name{
+	width: 400px;
+	height: 20px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: grey;
+}
+
+#name:hover{
+	color: #B2BABB;
+}
+
+#email{
+	width: 400px;
+	height: 20px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: grey;
+
+}
+
+#email:hover{
+	color: #B2BABB;
+}
+
+#message{
+	width: 400px;
+	height: 100px;
+	background-color: #EAFAF1;
+	padding-top: 10px;
+	color: grey;
+	align-content: left;
+
+}
+
+#message:hover{
+	color: #B2BABB;
+}
+
+#buttom{
+	margin-top:10px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	width: 80px;
+	height: 35px;
+	background-color:#4aaaa5;
+	color: #ffffff;
+	text-align: center;
+	font-size: 15px;
+	cursor: pointer;
+
+}
+
+
+
+/*CSS for portafolio.html*/
+
+
+#portafolio{
+	background-color: #ffffff;
+	margin: 64px;
+	width: 650px;
+	float: left;
+	padding-left: 20px;
+	border-color: #cccccc; 
+	position: relative;
+	top: -30px;
+
+
+}
+
+.folios{
+	height:200px; 
+	width: 250px ;  
+	margin: 30px; 
+	float:left; 
+	position:relative;
+
+}
+
+.text1{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    bottom: 6%;
+   line-height: 45px;
+   text-align: center;
+    white-space: nowrap;
+
+}
+
+.text2{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+    bottom: 6%;
+    right: -0.5%;
+}
+
+.text3{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+    bottom: 6%;
+    right: -0.5%;
+}
+
+.text4{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+    bottom: 6%;
+    right: -0.5%;
+}
+
+
+.text5{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+    bottom: 6%;
+    right: -0.5%;
+}
+
+
+
+.text6{
+	color: #ffffff;
+	height: 45px;
+    width: 234px;
+    background-color: #4aaaa5;
+    padding: 8px;
+    position: absolute;
+    white-space: nowrap;
+    line-height: 45px;
+    text-align: center;
+    bottom: 6%;
+    right: -0.5%;
+}
+
+.text1:hover{
+	color: black;
+}
+.text2:hover{
+	color: black;
+}
+.text3:hover{
+	color: black;
+}.text4:hover{
+	color: black;
+}.text5:hover{
+	color: black;
+}.text6:hover{
+	color: black;
+}
