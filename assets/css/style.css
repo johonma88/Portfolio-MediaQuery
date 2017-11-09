@@ -6,18 +6,19 @@ body{
 
 header{
 	position: relative;
+	background-color: white;
 }
 
 .name{
     color: white;
     background: #4aaaa5;
-    width: 250px;
+    width: 300px;
     height: 55px;
     text-align: center;
     padding-top: 15px;
     float: left;
     font-size: 12px;
-    position: relative;
+    /*position: relative;*/
     top: 29px;
     right: -63px;
 
@@ -28,10 +29,10 @@ header{
 .links {
     margin-top: 20px;
     margin-right: 64px;
-    float: left;
-    position: absolute;
-    top: 15px;
-    right: -775px;
+    float: right;
+   /* position: absolute;*/
+    top: 29px;
+    right: -475px;
     font-size: 18px;
 }
 
@@ -44,7 +45,7 @@ header{
 	clear: both;
 	overflow: auto;
 	border-color: #cccccc;
-	position: relative;
+	/*position: relative;*/
 	top: 30px;
 
 
@@ -68,7 +69,7 @@ h3{
 	float: left;
 	padding-left: 20px;
 	border-color: #cccccc; 
-	position: relative;
+	/*position: relative;*/
 	top: -30px;
 
 
@@ -85,7 +86,7 @@ h3{
 	float:left;
     top: -19px;
     right: -360px;
-    position: absolute;
+   /* position: absolute;*/
 
 }
 
@@ -148,7 +149,7 @@ a:hover{
 	float: left;
 	padding-left: 20px;
 	border-color: #cccccc; 
-	position: relative;
+/*	position: relative;*/
 	top: -30px;
 
 
@@ -219,7 +220,7 @@ a:hover{
 	float: left;
 	padding-left: 20px;
 	border-color: #cccccc; 
-	position: relative;
+	/*position: relative;*/
 	top: -30px;
 
 
@@ -336,3 +337,186 @@ a:hover{
 }.text6:hover{
 	color: black;
 }
+
+
+/*Media-Query*/
+
+
+
+
+
+/*For computers*/
+@media only screen and (max-width: 980px) {
+
+	body{
+			background-image:url("../images/bg1.png");
+	}
+
+
+	.box{
+		width: 850px;
+		float: left;
+		margin-bottom: 10px;
+		margin-top: 10px;
+		margin-left: 100px;
+		text-align: center;	
+		margin-left: 70px;
+
+	}
+	 #AboutMe{
+	 	width: 450px;
+	 	margin: 5px;
+	 }
+
+	#connect{
+		width: 200px;
+		float: left;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	.name{
+		width: 350px;
+		float: left;
+		margin-left: 70px;
+	}
+
+	.links{
+		width:350px;
+		float: left;
+		text-align: center;
+		margin-left: 100px;
+	}
+	 #portafolio{
+	 	width: 450px;
+	 	margin: 5px;
+
+	 }
+	  #contact{
+	 	width: 450px;
+	 	margin: 5px;
+	 }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+	
+	body{
+			background-image:url("../images/bg3.png");
+	}
+
+	.box{
+		width: 700px;
+		float: left;
+		margin-bottom: 30px;
+		margin-left: 30px;
+		text-align: center;
+	}
+
+	 #AboutMe{
+	 	width: 650px;
+	    margin: 15px;
+	    margin-left: 30px;
+
+	 }
+
+
+	#connect{
+		width: 600px;
+		float: left;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	.name{
+		width: 250px;
+		float: left;
+	}
+	.links{
+		width:280px;
+		float: right;
+		text-align: center;
+		margin-left: 50px;
+	}
+
+	 #portafolio{
+	 	width: 650px;
+	 	margin: 5px;
+	 	float: left;
+
+	 }
+
+	  
+	  #contact{
+	 	width: 500px;
+	 	margin: 5px;
+	 	float:left;
+	 }
+
+}
+
+
+@media only screen and (max-width:648px) {
+	
+	body{
+			background-image:url("../images/bg4.jpg");
+	}
+
+	.box{
+		width: 600px;
+		float: left;
+		margin-bottom: 30px;
+		margin-left: 15px;
+		text-align: center;
+	}
+
+	 #AboutMe{
+	 	width: 550px;
+	    margin: 15px;
+	    
+
+	 }
+
+
+	#connect{
+		width: 600px;
+		float: left;
+		text-align: center;
+		margin-top: 10px;
+
+	}
+
+	.name{
+		width: 600px;
+		float: left;
+		text-align: center;
+	}
+	.links{
+		width:600px;
+		float: left;
+		/*text-align: center;*/
+		/*margin-left: 200px;*/
+	}
+
+	 #portafolio{
+	 	width: 600px;
+	 	margin: 5px;
+	 	float: left;
+
+	 }
+
+	  
+	  #contact{
+	 	width: 600px;
+	 	margin: 5px;
+	 	float:left;
+	 }
+
+
+}
+
+
